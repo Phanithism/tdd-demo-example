@@ -1,0 +1,9 @@
+= simple_form_for(post ||= @post) do |f|
+  .col-xs-12.col-md-9
+    = f.input :title
+  .col-xs-12.col-md-2
+    = f.input :state, collection: Post::STATES, input_html: { id: 'select-dropdown' }
+  .col-xs-12
+    = f.input :body
+  .actions
+    = f.submit class: 'btn btn-primary'

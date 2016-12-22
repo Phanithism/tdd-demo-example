@@ -1,0 +1,12 @@
+.modal.fade{id: "myModalPost-#{post.id}", "aria-labelledby" => "myModalPost-#{post.id}Label", :role => "dialog", :tabindex => "-1"}
+  .modal-dialog{:role => "document"}
+    .modal-content
+      .modal-header
+        %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+          %span{"aria-hidden" => "true"} ×
+        %h4.modal-title{ id: "myModalPost-#{post.id}Label" } Edit Post
+      .modal-body
+        = render 'form', post: post
+      -# .modal-footer
+      -#   %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
+      -#   %button.btn.btn-primary{:type => "button"} Save changes
