@@ -1,0 +1,288 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.webservicex.net/airport.asmx/GetAirportInformationByCountry?country=cambodia
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private, max-age=0
+      Content-Type:
+      - text/xml; charset=utf-8
+      Vary:
+      - Accept-Encoding
+      Server:
+      - Microsoft-IIS/7.0
+      X-Aspnet-Version:
+      - 4.0.30319
+      X-Powered-By:
+      - ASP.NET
+      Date:
+      - Fri, 23 Dec 2016 04:44:49 GMT
+      Content-Length:
+      - '2273'
+    body:
+      encoding: ASCII-8BIT
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<string xmlns=\"http://www.webserviceX.NET\">&lt;NewDataSet&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;TNX&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;STUNG
+        TRENG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;1220&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;0&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;32&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;106&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;2&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;TNX&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;STUNG
+        TRENG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;1220&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;0&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;32&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;106&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;2&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;BBM&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;BATTAMBANG&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;5215&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;59&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;5&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;103&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;13&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;BBM&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;BATTAMBANG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;5215&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;59&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;5&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;103&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;13&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KTI&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KRATIE&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;3610&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;98&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;29&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;106&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;3&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;KTI&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;KRATIE&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3610&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;98&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;29&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;106&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;3&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KZC&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KOMPONG-CHHNANG&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;5413&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;66&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;14&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;40&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;KZC&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;KOMPONG-CHHNANG&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;5413&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;66&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;14&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;40&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;KZD&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;KRAKOR&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;4865&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;39&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;32&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;9&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KZD&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KRAKOR&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;4865&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;39&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;32&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;9&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;KZK&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;KOMPONG THOM&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;2340&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;33&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;43&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;54&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KZK&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KOMPONG
+        THOM&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;2340&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;33&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;43&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;54&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;OMY&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;PHNOM
+        THBENG MEANCHEY&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3600&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;330&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;49&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;58&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;OMY&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;PHNOM
+        THBENG MEANCHEY&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3600&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;330&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;49&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;58&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;PAI&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;PAILIN&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;3940&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;623&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;51&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;102&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;35&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;PAI&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;PAILIN&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3940&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;623&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;12&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;51&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;102&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;35&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;SVR&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;SVAY
+        RIENG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3250&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;25&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;11&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;5&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;105&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;48&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;20&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;SVR&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;SVAY
+        RIENG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3250&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;25&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;11&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;5&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;105&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;48&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;20&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KKZ&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KOH
+        KONG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;0&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;0&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;11&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;38&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;102&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;58&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KKZ&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KOH
+        KONG&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;0&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;0&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;11&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;38&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;102&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;58&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KMT&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KAMPOT&lt;/CityOrAirportName&gt;\r\n
+        \   &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n    &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n
+        \   &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n    &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n
+        \   &lt;RunwayLengthFeet&gt;2624&lt;/RunwayLengthFeet&gt;\r\n    &lt;RunwayElevationFeet&gt;42&lt;/RunwayElevationFeet&gt;\r\n
+        \   &lt;LatitudeDegree&gt;10&lt;/LatitudeDegree&gt;\r\n    &lt;LatitudeMinute&gt;38&lt;/LatitudeMinute&gt;\r\n
+        \   &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n    &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n
+        \   &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n    &lt;LongitudeMinute&gt;10&lt;/LongitudeMinute&gt;\r\n
+        \   &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n    &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n
+        \ &lt;/Table&gt;\r\n  &lt;Table&gt;\r\n    &lt;AirportCode&gt;KMT&lt;/AirportCode&gt;\r\n
+        \   &lt;CityOrAirportName&gt;KAMPOT&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;2624&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;42&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;10&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;38&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;10&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KOS&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KOMPONG
+        SOM&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3937&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;30&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;10&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;36&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;103&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;41&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;KOS&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;KOMPONG
+        SOM&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;3937&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;30&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;10&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;36&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;103&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;41&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;PNH&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;PHNOM
+        PENH&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;9842&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;39&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;11&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;33&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;51&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;PNH&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;PHNOM
+        PENH&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;9842&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;39&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;11&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;33&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;104&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;51&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;REP&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;SIEM
+        REAP&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;8366&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;75&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;25&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;103&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;49&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n
+        \ &lt;Table&gt;\r\n    &lt;AirportCode&gt;REP&lt;/AirportCode&gt;\r\n    &lt;CityOrAirportName&gt;SIEM
+        REAP&lt;/CityOrAirportName&gt;\r\n    &lt;Country&gt;Cambodia&lt;/Country&gt;\r\n
+        \   &lt;CountryAbbrviation&gt;KH&lt;/CountryAbbrviation&gt;\r\n    &lt;CountryCode&gt;709&lt;/CountryCode&gt;\r\n
+        \   &lt;GMTOffset&gt;-7&lt;/GMTOffset&gt;\r\n    &lt;RunwayLengthFeet&gt;8366&lt;/RunwayLengthFeet&gt;\r\n
+        \   &lt;RunwayElevationFeet&gt;75&lt;/RunwayElevationFeet&gt;\r\n    &lt;LatitudeDegree&gt;13&lt;/LatitudeDegree&gt;\r\n
+        \   &lt;LatitudeMinute&gt;25&lt;/LatitudeMinute&gt;\r\n    &lt;LatitudeSecond&gt;0&lt;/LatitudeSecond&gt;\r\n
+        \   &lt;LatitudeNpeerS&gt;N&lt;/LatitudeNpeerS&gt;\r\n    &lt;LongitudeDegree&gt;103&lt;/LongitudeDegree&gt;\r\n
+        \   &lt;LongitudeMinute&gt;49&lt;/LongitudeMinute&gt;\r\n    &lt;LongitudeSeconds&gt;0&lt;/LongitudeSeconds&gt;\r\n
+        \   &lt;LongitudeEperW&gt;E&lt;/LongitudeEperW&gt;\r\n  &lt;/Table&gt;\r\n&lt;/NewDataSet&gt;</string>"
+    http_version: 
+  recorded_at: Fri, 23 Dec 2016 04:44:50 GMT
+recorded_with: VCR 3.0.3

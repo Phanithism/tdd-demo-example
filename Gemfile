@@ -14,6 +14,8 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'select2-rails',  '~> 4.0'
 gem 'simple_form'
 gem 'haml',           '~> 4.0'
+gem 'httparty',       '~> 0.14.0'
+gem 'nokogiri', '~> 1.6', '>= 1.6.8.1'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.5'
@@ -23,6 +25,8 @@ group :development, :test do
   gem 'byebug'
   gem 'launchy'
   gem 'database_cleaner'
+  gem 'vcr', '~> 3.0', '>= 3.0.3'
+  gem 'webmock', '~> 2.3', '>= 2.3.1'
   gem 'pry'
 end
 
