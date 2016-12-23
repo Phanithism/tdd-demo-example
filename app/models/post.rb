@@ -13,6 +13,11 @@ class Post < ActiveRecord::Base
     title.downcase.titleize
   end
 
+  def posted_on_sunday?
+    created_at.sunday?
+  end
+
+
   STATES.each do |state|
     define_method "#{state}?" do
       self.state == state
