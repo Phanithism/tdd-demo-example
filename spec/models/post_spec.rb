@@ -19,6 +19,16 @@ RSpec.describe Post, type: :model do
         post.title = 'tEst driVen developMent'
         expect(post.formarted_title).to eq('Test Driven Development')
       end
+
+      it 'calls post.created_at.sunday?' do
+        expect(post.created_at).to receive('sunday?')
+        post.posted_on_sunday?
+      end
+
+      it 'stubed sunday?' do
+        post.created_at.stub(:sunday?)
+        expect(post.posted_on_sunday?).to eq(nil)
+      end
     end
 
     context '#published?' do
@@ -52,7 +62,7 @@ RSpec.describe Post, type: :model do
         Post.create(title: 'test driven development 0', body: 'lorem lorem', state: 'published')
         Post.create(title: 'test driven development 1', body: 'lorem lorem', state: 'draft')
 
-        expect(Post.publishes.size).to eq(1)
+        expect(Post.publishes.any?).to be_truthy
       end
     end
   end
